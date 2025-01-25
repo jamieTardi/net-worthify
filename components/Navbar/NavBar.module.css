@@ -1,0 +1,16 @@
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+	color: var(--font-colour);
+	border-bottom: 1px solid #eaeaea;
+	background-color: #fff;
+
+	h1 {
+		color: #fff;
+		-webkit-text-stroke-width: 3px;
+		-webkit-text-stroke-color: var(--font-colour);
+		filter: drop-shadow(5px 5px 0px var(--font-colour));
+	}
+}

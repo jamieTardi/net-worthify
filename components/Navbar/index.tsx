@@ -1,15 +1,20 @@
 import React from "react";
-import styles from "./NavBar.module.css";
+import styles from "./NavBar.module.scss";
+import NavItems from "./NavItems";
+import SignIn from "./SignIn";
 
 const Navbar = () => {
-	console.log("hello");
-
 	return (
-		<div className={styles.container}>
-			<div>
+		<div className={styles.navbar}>
+			<div className={styles.navbar__logo}>
 				<h1>Net-Worthify</h1>
 			</div>
-			<div></div>
+			<div className={styles.navbar__links}>
+				<NavItems />
+			</div>
+			<div className={styles.navbar__signIn}>
+				<SignIn />
+			</div>
 		</div>
 	);
 };

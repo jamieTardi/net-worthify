@@ -1,7 +1,16 @@
-import React from 'react';
+import React from "react";
+import { navItems } from "./navItems";
+import NavItem from "./NavItem";
+import styles from "../NavBar.module.scss";
 
-const NavItem = () => {
-	return <div>NavItem</div>;
+const NavItems = () => {
+	return (
+		<div className={styles["nav-items"]}>
+			{navItems.map((item) => {
+				return <NavItem key={item.name} item={item} />;
+			})}
+		</div>
+	);
 };
 
-export default NavItem;
+export default NavItems;

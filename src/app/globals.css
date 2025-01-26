@@ -11,6 +11,11 @@
 		--background: #0a0a0a;
 		--foreground: #ededed;
 		--font-colour: #000000;
+		--yellow: #ffc700;
+		--purple: #74247a;
+		--default-border-radius: 1rem;
+		--default-box-shadow: 6px 7px 0px 0px #0a0a0a;
+		--default-border: 3px solid #0a0a0a;
 	}
 }
 
